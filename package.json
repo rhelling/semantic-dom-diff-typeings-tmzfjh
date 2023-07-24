@@ -1,0 +1,25 @@
+{
+  "name": "sem-dom-diff-typing",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "eslint 'src/**/*.ts' && web-test-runner 'src/**/*.ts' --manual --open",
+    "lint": "eslint 'src/**/*.ts'",
+    "test": "web-test-runner 'src/**/*.ts' --manual --open"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "3.1.8",
+    "@open-wc/semantic-dom-diff": "https://gitpkg.now.sh/open-wc/open-wc/packages/semantic-dom-diff?513e64e2abd0bb23196cc78e2f8104a8f78c2938",
+    "@types/chai": "^4.3.5",
+    "@types/eslint": "^8.4.3",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "@web/dev-server-esbuild": "^0.3.3",
+    "@web/test-runner": "0.13.31",
+    "eslint": "^8.40.0",
+    "eslint-plugin-lit": "^1.8.3",
+    "tslib": "~2.5.0",
+    "typescript": "~4.9.5"
+  }
+}
